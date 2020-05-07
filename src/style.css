@@ -14,7 +14,6 @@ body {
   padding-top: 30px;
   padding-bottom: 50px;
   width: 100% !important;
-
 }
 
 .btnRandom {
@@ -45,7 +44,6 @@ body {
 
 .btnWatchMovie {
   margin-left: 40%;
-
 }
 
 .icon {
@@ -55,7 +53,6 @@ body {
 
 #movieCard {
   margin-top: 20px;
-
 }
 
 .cars {
@@ -65,21 +62,37 @@ body {
 #moviePoster {
   border-radius: 15px;
   margin-bottom: 1rem;
+  max-width: 25rem;
+  margin-left: 20rem;
 }
 
 #cardsSearch {
-
   border-radius: 15px !important;
   margin-bottom: 15px !important;
 }
 
-#btnWatch, #btnHome {
+#btnWatch,
+#btnHome {
   margin-top: 15px;
 }
 
-#search, #btnSearch {
+#search,
+#btnSearch {
   display: inline-block !important;
 }
-.question{
-  margin-left:3rem;
+.question {
+  margin-left: 3rem;
 }
+
+/*.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#randomBtns {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}*/

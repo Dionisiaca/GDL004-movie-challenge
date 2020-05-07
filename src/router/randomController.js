@@ -48,8 +48,10 @@ export default () => {
       <p class="card-text"><strong>Genre: </strong>${movie.Genre}</p>
       <p class="card-text"><strong>Director: </strong>${movie.Director}</p>
       <p class="card-text"><strong>Stars: </strong>${movie.Actors}</p>
-      <a href="https://www.netflix.com/mx-en/" class="btn btn-danger btnWatchMovie">Watch movie</a>
-      <a href="#/home"class="btn btn-outline-secondary btnL">𐠪</a>
+      <div id="randomBtns">
+        <a href="https://www.netflix.com/mx-en/" class="btn btn-danger btnWatchMovie">Watch movie</a>
+        <a href="#/home"class="btn btn-outline-secondary btnL">𐠪</a>
+      </div>
     </div>
 
 
