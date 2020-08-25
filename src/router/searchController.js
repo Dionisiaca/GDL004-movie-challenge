@@ -38,8 +38,8 @@ export default () => {
                         <div class="card-body">
                         <h5 class="card-title">${movie.Title}</h5>
                         <p class="card-text">${movie.Year}</p>
-                        <img src="${movie.Poster}" class="card-img-top">
-                        <a href="https://www.netflix.com/mx-en/" type="button" id="btnWatch" class="btn btn-danger ">watch movie</a>
+                        <img src="${movie.Poster}" class="card-img-top searchPoster">
+                        <a href="https://www.netflix.com/mx-en/" target="blank" type="button" id="btnWatch" class="btn btn-danger ">Watch movie</a>
                         
                     </div>   
                     </div>

@@ -1,98 +1,44 @@
-Html {
-  margin: 4px;
+.start {
+  padding-top: 20%;
+  text-align: center;
 }
 
-body {
-  background-color: #222;
+.header{
+  margin-bottom: 50px;
 }
 
-/* VIEW START */
-.divElemt {
-  /*background-color: rgba(167, 138, 138, 0.432);*/
-  justify-content: center;
-  margin-top: 100px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  width: 100% !important;
+.startbtn{
+  margin-bottom: 10px;
 }
 
-.btnRandom {
-  margin-top: 30px;
-  margin-left: 40px;
-  width: 250px;
-  border-radius: 10px;
+#movieCard{
+  margin-top: 10%;
+  text-align: center;
 }
 
-.btnHome {
-  margin-left: 100px;
-  margin-bottom: 25px;
-  border: 2px solid white !important;
-  font-size: 0.875em !important;
-  color: white !important;
+#moviePoster{
+  max-width: 400px;
+  margin-bottom: 30px;
 }
 
-.divBtnHome {
-  /*background-color: rgba(255, 235, 205, 0.336);*/
-  margin-left: 170px;
-  margin-right: 10px;
-}
-
-/****************************************************/
-.divRandom {
-  margin-top: 20px;
-}
-
-.btnWatchMovie {
-  margin-left: 40%;
-}
-
-.icon {
-  width: 10px;
-  height: 10px;
-}
-
-#movieCard {
-  margin-top: 20px;
-}
-
-.cars {
-  border-radius: 15px !important;
-}
-
-#moviePoster {
-  border-radius: 15px;
-  margin-bottom: 1rem;
-  max-width: 25rem;
-  margin-left: 20rem;
-}
-
-#cardsSearch {
-  border-radius: 15px !important;
-  margin-bottom: 15px !important;
-}
-
-#btnWatch,
-#btnHome {
-  margin-top: 15px;
-}
-
-#search,
-#btnSearch {
-  display: inline-block !important;
-}
-.question {
-  margin-left: 3rem;
-}
-
-/*.card-body {
-  display: flex;
-  flex-direction: column;
+.cards{
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-#randomBtns {
-  width: 20rem;
-  display: flex;
-  justify-content: space-between;
-}*/
+.customcard{
+  background-color: black;
+}
+
+#retry{
+  margin-bottom: 40px;
+}
+
+.customnav{
+  margin-bottom: 5%;
+}
+
+.searchPoster{
+  margin-bottom: 15px;
+}

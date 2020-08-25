@@ -1,9 +1,8 @@
 export default () => {
       const viewRandom = document.createElement("div");
       viewRandom.innerHTML = `
-      <div class="row">
-      <div class="col-sm-12">
-        <div id='randomContainer'>
+      <div class="row cards">
+      <div class="col-12 col-lg-6">
           <div id='movieCard'></div>
           <button class="btn btn-danger btnWatchMovie" id='retry'> Try again</button>
         </div>
@@ -21,4 +20,4 @@ export default () => {
       return viewRandom;
     };
    
-    
+      

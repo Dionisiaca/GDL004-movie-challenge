@@ -24,6 +24,11 @@ export default () => {
     "21",
     "old",
     "the",
+    "dance",
+    "friends",
+    "love",
+    "music",
+    "blue",
   ];
   let randomNumber = Math.floor(Math.random() * movieArray.length - 1) + 1;
   let randomMovie = movieArray[randomNumber];
@@ -38,9 +43,9 @@ export default () => {
 
   random().then((movie) => {
     let randomTemplate = `
-    <div class="card border-danger mb-3 cars" style="max-width:100%;">
+    <div class="card border-danger mb-5">
 
-    <div class="card-body">
+    <div class="card-body customcard">
       <h4 class="text-danger">${movie.Title}</h4>
       <p class="card-text">${movie.Runtime} | ${movie.Year} | ${movie.Rated}</p>
       <img src="${movie.Poster}"   id='moviePoster' class="card-img-top"/>
@@ -49,8 +54,8 @@ export default () => {
       <p class="card-text"><strong>Director: </strong>${movie.Director}</p>
       <p class="card-text"><strong>Stars: </strong>${movie.Actors}</p>
       <div id="randomBtns">
-        <a href="https://www.netflix.com/mx-en/" class="btn btn-danger btnWatchMovie">Watch movie</a>
-        <a href="#/home"class="btn btn-outline-secondary btnL">𐠪</a>
+        <a href="https://www.netflix.com/mx-en/" target="blank" class="btn btn-danger btnWatchMovie">Watch movie</a>
+        <a href="#/home"class="btn btn-outline-secondary btnL">&#x1F50D;</a>
       </div>
     </div>
 
